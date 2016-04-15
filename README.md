@@ -1,6 +1,7 @@
 # My-Projects
 
-The java code is my implementation of several solutions for job-shop scheduling problem with the use of evolutionary algorithms. It was prepared for assessment of Computational Intelligence module (yr4) - the purpose of the project was to prepare a report with references to literature about JSSP and previous implementations of solutions to this problem. The code was not a part of the mark, although the solutions had to be presented. 
+The java code is my implementation of several solutions for job-shop scheduling problem with the use of evolutionary algorithms. It was prepared for assessment of Computational Intelligence module (yr4) - the purpose of the project was to prepare a report with references to literature about JSSP and previous implementations of solutions to this problem. 
+
 A library with basic implementation of JSSP was provided for this project. The library defined over 100 problems which varied in terms of the number of machines and the number of jobs. The Problem class provided several methods necessary to create solutions to problems. A single solution to a problem was represented as a 2-D int array - the library provided a method calculating fitness of a solution.
 
 The Project contains several classes. The solutions for JSSP were implemented by taking advantage of Java object-orientation concepts, inheritance and polymorphism – each solution is implemented as a separated class that inherits from an appropriate abstract class.
